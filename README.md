@@ -1,4 +1,4 @@
 # cardnews
 Browse the news in cards
 
-[Demo](https://goo.gl/MCUjLA)
+[Demo](https://dlthdnjs0517.github.io/greeny/.)
