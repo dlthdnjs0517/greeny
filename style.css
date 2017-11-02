@@ -1,16 +1,16 @@
 .mdl-layout__content {
-  background: #EEE;
+  background: #E1FFE1;
 }
 .page-content {
-  padding: 8px;
+  padding: 15px;
   white-space: nowrap;
 }
 .page-content .mdl-card {
   display: block;
-  width: auto;
-  height: auto;
-  min-height: 0;
-  margin: 8px;
+  width: 300px;
+  height: 400px;
+  min-height: 50px;
+  margin: 15px;
   white-space: normal;
 }
 #page-content-1, #page-content-2 { width: 50%; display: inline-block; vertical-align: top;  }
