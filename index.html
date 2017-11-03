@@ -21,6 +21,7 @@
         <div class="mdl-layout__header-row">
           <!-- Title -->
           <span class="mdl-layout-title">GreenyHouse</span>
+
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -34,13 +35,17 @@
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="http://news.naver.com/main/hotissue/sectionList.nhn?mid=hot&sid1=110&cid=1010805" target="_blank">Powered by NAVER.org</a>
           <a class="mdl-navigation__link" href="#" onclick="test_int()">Interests</a>
+          <a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=200,width=400');return false;" target="_blank" alt="Share on Twitter" ><img src="twitter.png"></a>
+          <a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=200,width=400');return false;" target="_blank" alt="Share on Facebook" ><img src="facebook.png"></a>
+          <a href="#" onclick="javascript:window.open('https://plus.google.com/share?url=' +encodeURIComponent(document.URL), 'googleplussharedialog','menubar=no,toolbar=no,resizable=yes, scrollbars=yes,height=175,width=300');return false;" target="_blank" alt="Share on Google+"> <img src="./google+.png"></a>
+          <a href="#" onclick="javascript:window.open('https://story.kakao.com/s/share?url=' +encodeURIComponent(document.URL), 'kakaostorysharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes, height=200,width=300');return false;" target="_blank" alt="Share on kakaostory"> <img src="kakaostory.png"></a>
+          <a href="#" onclick="javascript:window.open('http://share.naver.com/web/shareView.nhn?url=' +encodeURIComponent(document.URL)+'&title='+encodeURIComponent(document.title), 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=200,width=400');return false;" target="_blank" alt="Share on Naver" ><img src="naver.png"></a>
         </nav>
       </div>
       <main class="mdl-layout__content">
         <div class="page-content">
           <div id="page-content-1"></div>
           <div id="page-content-2"></div>
-          <a href="#" onclick="javascript:window.open('https://plus.google.com/share?url=' +encodeURIComponent(document.URL), 'googleplussharedialog','menubar=no,toolbar=no,resizable=yes, scrollbars=yes,height=350,width=600');return false;" target="_blank" alt="Share on Google+"> <img src="https://github.com/dlthdnjs0517/greeny/blob/master/google%2B.png">구글플러스버튼</a>
         </div>
       </main>
     </div>
